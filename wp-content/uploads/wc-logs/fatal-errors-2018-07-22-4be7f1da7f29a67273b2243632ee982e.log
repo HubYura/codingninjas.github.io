@@ -1,0 +1,40 @@
+2018-07-22T14:25:35+00:00 CRITICAL Call to undefined function content_class_by_sidebar()
+
+2018-07-22T14:26:27+00:00 CRITICAL Call to undefined function content_class_by_sidebar()
+
+2018-07-22T14:31:43+00:00 CRITICAL Call to undefined function content_class_by_sidebar()
+
+2018-07-22T14:31:56+00:00 CRITICAL Call to undefined function content_class_by_sidebar()
+
+2018-07-22T14:32:09+00:00 CRITICAL Call to undefined function content_class_by_sidebar()
+
+2018-07-23T00:16:16+00:00 CRITICAL Call to a member function get_permalink() on null
+
+2018-07-23T00:19:03+00:00 CRITICAL Call to undefined method WP_Post::get_permalink()
+
+2018-07-23T00:19:11+00:00 CRITICAL Call to undefined method WP_Post::get_permalink()
+
+2018-07-23T00:21:41+00:00 CRITICAL Call to undefined method WP_Post::get_permalink()
+
+2018-07-23T00:23:27+00:00 CRITICAL Call to a member function get_permalink() on null
+
+2018-07-23T00:23:54+00:00 CRITICAL Call to undefined method WP_Post::get_permalink()
+
+2018-07-23T00:24:31+00:00 CRITICAL Call to undefined method WP_Post::get_permalink()
+
+2018-07-23T00:57:07+00:00 CRITICAL Uncaught exception 'Exception' with message 'Неверное хранилище данных.' in /home/wisesolu/wisesolutions.com.ua/codingninjas/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:101
+Stack trace:
+#0 /home/wisesolu/wisesolutions.com.ua/codingninjas/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(136): WC_Data_Store->__construct('product')
+#1 /home/wisesolu/wisesolutions.com.ua/codingninjas/wp-content/plugins/woocommerce/includes/class-wc-product-factory.php(81): WC_Data_Store::load('product')
+#2 /home/wisesolu/wisesolutions.com.ua/codingninjas/wp-content/plugins/woocommerce/includes/class-wc-product-factory.php(32): WC_Product_Factory::get_product_type(54)
+#3 /home/wisesolu/wisesolutions.com.ua/codingninjas/wp-content/plugins/woocommerce/includes/wc-product-functions.php(64): WC_Product_Factory->get_product(Object(WP_Post), Array)
+#4 /home/wisesolu/wisesolutions.com.ua/codingninjas/wp-content/plugins/woocommerce/includes/wc-template-functions.php(141): wc_get_pr
+
+2018-07-23T01:22:32+00:00 CRITICAL Call to undefined method WP_Post::get_min_purchase_quantity()
+
+2018-07-23T01:23:13+00:00 CRITICAL Call to undefined method WP_Post::single_add_to_cart_text()
+
+2018-07-23T01:23:18+00:00 CRITICAL Call to undefined method WP_Post::single_add_to_cart_text()
+
+2018-07-23T01:23:53+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
